@@ -1,0 +1,31 @@
+header {
+  background-color: white;
+  padding: 0;
+  border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+a:hover{
+background: red;
+color: white;
+}
+
+.container {
+ margin: 0;
+ display: flex;
+ justify-content: space-between;
+}
+
+a.logo{
+  font-weight: bolder;
+  padding: 1em;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
