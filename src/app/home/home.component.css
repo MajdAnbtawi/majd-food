@@ -1,5 +1,5 @@
 ngb-rating {
-  color: blue;
+  color: #FCCE0B;
   font-size: 15px;
 
 }
@@ -15,9 +15,9 @@ ul li{
   list-style: none;
 }
 ul li a{
-  height: 470px;
+  height: 490px;
   width: 316px;
-  border: 0.5px solid rgb(209, 209, 209);
+  border: 0.5px solid #FCCE0B;
   margin: 8px;
   display: flex;
   flex-direction: column;
@@ -39,20 +39,23 @@ ul li a:hover{
   bottom: 20px;
   right: 20px;
   font-size: 35px;
-  color: red;
+  color: #D84012;
 }
 .isfavourate.not{
-  color:gray;
+  color:#C1CCCE;
 }
 .stars{
   margin: 10px 0px;
 }
 .price{
   font-size: 35px;
-  color:red;
+  color:#D84012;
 }
 .tags{
-  color:lightgray;
+  color:#C1CCCE;
   justify-content: space-between;
   display: flex;
+}
+.name{
+color: #D84012;
 }

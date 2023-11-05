@@ -1,24 +1,20 @@
 header {
-  background-color: white;
   padding: 0;
-  border-bottom: 3px solid rgb(0, 0, 0);
+  background-color: white;
+  border-bottom: solid #C1CCCE ;
 }
 
 a:hover{
-background: red;
-color: white;
+  opacity:0.7;
+  cursor: pointer;
 }
 
 .container {
- margin: 0;
+ margin: 5px;
  display: flex;
  justify-content: space-between;
 }
 
-a.logo{
-  font-weight: bolder;
-  padding: 1em;
-}
 
 nav ul li {
   list-style-type: none;
@@ -28,4 +24,13 @@ nav ul li a{
   padding-right: 10px;
   padding-left: 10px;
 }
-
+.logo{
+  height: 100px;
+  width: 100px;
+}
+.cart{
+  height: 30px;
+  width: 30px;
+  display: flex;
+  margin-top: 35px;
+}
