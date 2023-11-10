@@ -1,0 +1,32 @@
+<div class="container">
+  <img [src]="food.imageUrl"
+  [alt]="food.name" />
+
+  <div class="details">
+    <div class="header">
+      <span class="name">{{food.name}}</span>
+      <span class="favorite {{food.favorite?'':'not'}}">
+        &#10084;
+       </span>
+      </div>
+      <div class="stars">
+       <ngb-rating [max]="5"  [rate]="food.stars"  >
+       </ngb-rating>
+     </div>
+     <div class="tags">
+       <a *ngFor = "let tag of food.tags">
+         {{tag}}
+       </a>
+     </div>
+
+     <div class="price">
+       {{food.price|currency}}
+     </div>
+
+     <button>
+       Add To Cart
+     </button>
+
+  </div>
+
+</div>

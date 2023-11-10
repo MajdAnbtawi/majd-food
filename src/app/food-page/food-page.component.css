@@ -1,0 +1,90 @@
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+img{
+  border-radius: 30px;
+  object-fit: fill;
+  height: 500px;
+  width: 500px;
+  margin: 3px;
+}
+
+.details{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  padding: 3px;
+  color: black;
+}
+
+.details .header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.details .name{
+  font-size: 50px;
+  font-weight: bold;
+  color: #D84012;
+}
+
+.details .favorite{
+  color: #e72929;
+  font-size: 50px;
+  margin: 20px;
+}
+
+.details .favorite.not{
+  color: gray;
+}
+
+
+
+.details .price{
+  font-size: 70px;
+  color: #D84012;
+}
+
+.details .price::before{
+  content: "Price: ";
+  color: darkgrey;
+  font-size: 70px;
+
+}
+
+.details button{
+  color: #D84012;
+  background: #FCCE0B;
+  border: none;
+  font-size: 50px;
+  padding: 3px;
+  margin: 3px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.details button:hover{
+  opacity: .9;
+  cursor: pointer;
+}
+.tags{
+  background-color: #c1ccce6b;
+  border-radius: 30px;
+  padding-inline: 10px;
+  margin: 5px;
+  color: grey;
+  font-size: medium;
+  font-weight: lighter;
+  justify-content: space-between;
+
+}
+.tags:hover{
+  cursor: pointer;
+  opacity: 0.9;
+}
