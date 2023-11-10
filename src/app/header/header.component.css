@@ -1,7 +1,7 @@
 header {
   padding: 0;
-  background-color: white;
-  border-bottom: solid #C1CCCE ;
+    background-color: #c1ccce6b;
+
 }
 
 a:hover{
@@ -10,7 +10,6 @@ a:hover{
 }
 
 .container {
- margin: 5px;
  display: flex;
  justify-content: space-between;
 }
@@ -33,4 +32,7 @@ nav ul li a{
   width: 30px;
   display: flex;
   margin-top: 35px;
+}
+a {
+  color: #442A00;
 }
