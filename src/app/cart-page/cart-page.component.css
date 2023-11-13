@@ -1,0 +1,120 @@
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-flow: row;
+flex-direction: row;
+width: 100%;
+
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* border-bottom: 1px solid #ffbbbb; */
+  border-radius: 1rem;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+
+}
+
+ul li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #D84012;
+  width: 100%;
+}
+
+ul li:last-child{
+ border: none;
+}
+
+ul li img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100rem;
+  object-fit: cover;
+  border: 1px solid #FCCE0B;
+}
+
+ul li div{
+  padding: 10px;
+}
+
+ul li select{
+  width: 100px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+ul .remove-button{
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 1rem;
+  border: 1px solid #ffbbbb;
+  color: #e72929;
+  opacity: .7;
+  outline: none;
+  width: 200px;
+
+
+}
+
+ul .remove-button:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.checkout{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  flex: content;
+  border: 1px solid #FCCE0B;
+  padding: 0px 50px 0px 50px;
+  margin: 5%;
+  width: 90%;
+  background-color: #D84012;
+  border-radius: 30px;
+
+}
+
+.checkout>div{
+  font-size: 30px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.checkout .foods-count{
+  color: #FCCE0B;
+}
+.total-price{
+  color: #FCCE0B;
+}
+
+.checkout .foods-count::before{
+  content: 'Count:';
+  color: #442A00;
+}
+
+.checkout .total-price::before{
+  content: 'Total Price: ';
+  color: #442A00;
+}
